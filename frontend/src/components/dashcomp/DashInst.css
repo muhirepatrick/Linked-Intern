@@ -1,0 +1,174 @@
+/* dashpersonhome */
+.pershandlepers{
+    padding: 10px;
+}
+.persdialog{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    background:none;    
+    margin-top: -20px;
+
+}
+.persdialog .persndani{
+    margin-top:10px;
+    box-shadow: 0px 0px 7px 1px rgb(18, 58, 189);
+    background-color:#ccc;
+    width: 500px;
+    padding: 10px 20px;
+    max-height: 700px;
+}
+.persdialog .persinnerdiv .persclose{
+    margin-left: 440px;
+    background-color: rgb(244, 15, 22);
+    color: white;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+.persdialog .persinnerdiv{
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    transition: 4s ease-in-out;
+    background-color:none ;
+    background-color:hsl(217, 52%, 72%,0.4);
+    z-index: 14;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+
+}
+.perspersondash{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-height: 195px;
+    border: 1px solid #ccc;
+    background-color:hsl(217, 52%, 72%,0.5);
+    display: flex;
+    flex-direction: column;
+}
+.perspicname{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.perspicdialogue{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items:center;
+}
+.perscomppic{
+    width: 75px;
+    height: 75px;
+}
+/* .compname{
+padding: 0px;
+margin: 0px;
+
+    display: flex;
+    text-align: left;
+    justify-content: left;
+} */
+.persalldesc{
+    display: flex;
+}
+
+/* dialogue */
+.persdescdialogue{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.persdescside{
+    width: 120px;
+    height: 90px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.perscompdescrip{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+/* dialogue */
+.perscompdecdialogue{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.perscompdescrip .perscompname{
+    font-weight: 700;
+    font-size: 18px;
+}
+/* dialogue */
+.perscompnamedialogue{
+    width: 100%;
+    text-align: center;
+}
+.perssumddescdialogue{
+    text-align: center;
+}
+/* dialogue */
+.persgowing{
+    padding: 10px 20px;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.persgowing:hover{
+    transition: 0.10ms ease-in-out;
+    background-color: rgb(12, 12, 116);
+}
+
+.perspositions{
+    background-color:rgb(232, 191, 6);
+    width: 200Px;
+    display: block;
+    margin: 10px;
+}
+.persdowndesc{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.persposition{
+    border: none;
+    background-color:rgb(223, 134, 71);
+    padding: 5px 5px;
+    cursor: all;
+}
+.persmore{
+    border: none;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    background-color:rgb(44, 101, 222);
+    cursor: pointer;
+}
+.persmore:hover{
+    background-color:rgb(35, 74, 157);
+    color: rgb(216, 215, 215);
+}

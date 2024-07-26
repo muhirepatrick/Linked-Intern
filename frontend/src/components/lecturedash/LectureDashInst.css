@@ -1,0 +1,53 @@
+/* dashpersonhome */
+.handlepers{
+    padding: 10px;
+}
+.persondash{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-height: 195px;
+    border: 1px solid #ccc;
+    background-color:hsl(217, 52%, 72%,0.5);
+    display: flex;
+    flex-direction: column;
+}
+.picname{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.comppic{
+    width: 75px;
+    height: 75px;
+}
+/* .compname{
+padding: 0px;
+margin: 0px;
+
+    display: flex;
+    text-align: left;
+    justify-content: left;
+} */
+.alldesc{
+    display: flex;
+}
+.descside{
+    width: 120px;
+    height: 90px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.compdescrip{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.compdescrip .compname{
+    font-weight: 700;
+    font-size: 18px;
+}

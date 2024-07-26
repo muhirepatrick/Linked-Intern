@@ -1,0 +1,125 @@
+.footerallfooter{
+    width: 100%;
+    max-height: 500px;
+    background-color: hsl(201, 41%, 8%);
+    border: none;
+    color: white;
+    box-shadow: 10px 0px 10px 0px rgba(34, 30, 30, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.footerfooter {
+    width: 100%;
+    max-height: 350px;
+    background-color: hsl(201, 41%, 8%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.footerleft {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.footerleft span{
+    padding: 15px;
+    color: white;
+
+}
+.footerleft span a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footerleft span a:hover{
+    color: hsl(129, 95%, 37%);
+    text-decoration: underline;
+}
+.footerright{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.footerright span{
+    color: white;
+    padding:10px 10px;
+}
+.footerright .footerexlinks{
+    color: white;
+    width:30px;
+    height:30px;
+}
+/* to be deleted */
+.footerright a{
+    color: white;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+.footerright a:hover{
+    color: hsl(129, 95%, 37%);
+    text-decoration: underline;
+}
+.footercopyright{
+    margin: 0px 20px 0px 20px;
+    display: block;
+    margin-bottom: 15px;
+    justify-content:center;
+    align-items: center;align-content: center;
+    text-align: center;
+}
+.footercopyright .footercopyr {
+    width: 600px;
+    border: 1px solid gray;
+}
+.footercopyright .footerrights{
+    width: 100px;
+    height: 30px;
+    color: rgb(159, 157, 157);
+}
+.footersocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    .footerallfooter{
+        width: 100%;
+        max-height: 2900px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    .footerfooter {
+        width: 100%;
+        max-height: 900px;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .footerallfooter{
+        width: 100%;
+        max-height: 2900px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    .footerfooter {
+        width: 100%;
+        max-height: 900px;
+        flex-direction: column;
+    }
+    
+}

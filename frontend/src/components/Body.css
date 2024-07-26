@@ -1,0 +1,1354 @@
+*{
+    color: #ffffff;
+    font-size: 17px;
+}
+.bodybody{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bodycircle{
+    width: 550px;
+    height: 550px;
+    padding: 0px;
+    margin: 10px;
+    overflow: hidden;border-radius: 50%;
+    /* background-image: url('../assets/happy.webp'); */
+    background: transition 12px;
+    background-size: 800px 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: changeB 30s infinite ease-in-out; 
+}
+@keyframes changeB{
+    0% {
+         background-image: url('../assets/happy.webp') ;
+        background-size: 800px 550px;
+        transition: 0.3ms ease-in-out;
+        background: transition;
+    }
+    40% { 
+        background-image: url('../assets/girls.jpg') ;
+        background-size: 800px 550px;
+        transition: 0.3ms ease-in-out;
+        background: transition;
+    }
+    80%{
+        background-image: url('../assets/girls2.jpg');
+        background-size: 800px 550px;
+        transition: 0.3ms ease-in-out;
+        background: transition;
+    }
+    100% {
+        background-image: url('../assets/happy.webp') ;
+       background-size: 800px 550px;
+       transition: 0.3ms ease-in-out;
+       background: transition;
+   }
+
+}
+.bodycircle1{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-left: 8px solid  hsl(129, 95%, 37%);;
+    border-top: 6px dashed  hsl(129, 95%, 37%);;
+    border-bottom: 6px dashed  hsl(129, 95%, 37%);
+
+}
+.bodymyweb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    color: #ffffff;
+}
+.bodyanotherside{
+    margin: 10px;
+    /* background-color: red; */
+    width: 55%;
+    margin-top: 50px;
+
+}
+.bodymyweb legend{
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: hsl(129, 95%, 37%);
+
+}
+.bodymydesc{
+    width: 100%;
+    font-size: 20px;
+    color: #ffffff;
+}
+.bodycontinue{
+    text-decoration: none;
+    font-size:30px;
+    padding: 20px;
+    background-color: none;
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 300px;
+    display: flex;
+    color: #04fb2d;
+    border: 2px solid #04fb2d;
+}
+.bodycontinue:hover{
+    background-color: hsl(124, 96%, 44%);
+    color: #0F3045;
+    border: none;
+}
+.bodycompdesc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: green; */
+    width: 100%;
+}
+.bodycompanies{
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bodycompany{
+    height: 220px;
+    width: 220px;
+    padding: 10px;
+    
+}
+.bodyfirstcomp{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.bodyfirstcomp span{
+    font-size: 17px;
+    font-weight: 520;
+    color: #fff;
+}
+.bodyaccess{
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 450;
+    color: #fff;
+    margin-top: 20px;
+    background-color: hsl(129, 95%, 37%);
+    border-radius: 33px;
+}
+.bodyaccess:hover{
+    background-color: hsl(129, 55%, 37%);
+    color: #ffffff;
+    border: 2px solid hsl(129, 95%, 37%);
+}
+.bodymyparag{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px 145px;
+}
+.bodyabout{
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    background-color: #0F3045;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bodyabout span{
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 600;
+}
+.bodyabout .bodyhr{
+    width: 700px;
+    border: 1px solid white;
+    margin-bottom: 15px;
+}
+.bodyabout .bodyabparag{
+    color: #ffffff;
+    padding:20px 20px;
+    font-size: 20px;
+    width: 900px;
+    margin-bottom: 0px;
+}
+.bodyabout .bodymoreabout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bodyabout .bodyp{
+    width: 600px;
+    height: 30px;
+    color: #ffffff;
+    margin-left: 15%;
+    font-size: 20px;
+    padding: 10px;
+}
+.bodyabout .bodymore{
+    text-decoration: none;
+    padding: 18px 40px;
+    margin-left: 1%;
+    border: 3px solid hsl(129, 95%, 37%);
+    font-size: 30px;
+    background-color: hsl(129, 90%, 37%);
+    border-radius: 45px;
+    color: white;
+}
+
+.bodyabout .bodymore:hover{
+    color: #0F3045;
+    background-color: hsl(129, 78%, 69%);
+
+}
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media screen and (max-width: 400px) {
+    .bodybody{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .bodycircle{
+        height: 300px;
+        background-size: 150%;
+        background-position: center;
+        border-radius: 50%;
+        margin: 15px 10px 0px 10px;
+        display: flex;
+        margin-left: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        padding: 100px;
+       
+    }
+    .bodycircle1{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border-left: 8px solid hsl(129, 95%, 37%);
+        border-top: 6px dashed hsl(129, 95%, 37%);
+        border-bottom: 6px dashed hsl(129, 95%, 37%);
+        padding:10px;
+        position: absolute;
+    
+    }
+    @keyframes changeB{
+        0% {
+             background-image: url('../assets/happy.webp') ;
+            background-size: 400px 300px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        40% { 
+            background-image: url('../assets/girls.jpg') ;
+            background-size: 400px 300px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        80%{
+            background-image: url('../assets/girls2.jpg');
+            background-size: 400px 300px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        100% {
+            background-image: url('../assets/happy.webp') ;
+           background-size: 400px 300px;
+           transition: 0.3ms ease-in-out;
+           background: transition;
+       }
+    
+    }
+   
+    .bodymyweb{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 35px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding:0px;
+        color: #f1efef;
+        
+    }
+    .bodyanotherside{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        margin: 1px;
+        margin-top: 0px;
+
+    }
+    .bodymyweb legend{
+        font-size: 50px;
+        color: hsl(129, 95%, 37%);
+        margin-bottom: 10px;
+    }
+    .bodymydesc{
+        width: 315px;
+        margin-top: -15px;
+        padding: 0px 13px;
+        text-align: center;
+        font-size: 17px;
+        color: #f1efef;
+
+    }
+    .bodycontinue{
+        text-decoration: none;
+        font-size:25px;
+        padding: 9px;
+        background-color: hsl(129, 95%, 37%);;
+        margin-left: 70px;
+        margin-top: 0px;
+        width: 200px;
+        border-radius: 40px;
+        color: hsl(120, 9%, 98%);
+        display: flex;
+        border: 1.5px solid hsl(0, 0%, 100%);
+    }
+    .bodycontinue:hover{
+        background-color: hsl(129, 95%, 37%);
+        color: #0F3045;
+        border: none;
+    }
+    .bodycompdesc{
+        display: flex;
+        flex-direction: space-between;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .bodycompanies{
+        width: 100%;
+        padding: 0px 10px 10px;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .bodycompany{
+        height: 80px;
+        width: 80px;
+        padding: 0px;
+        
+    }
+    .bodyfirstcomp{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .bodyfirstcomp span{
+        font-size: 15px;
+        font-weight: 520;
+        color: #f1efef;
+    }
+    .bodyaccess{
+        text-decoration: none;
+        padding: 10px 16px;
+        font-size: 15px;
+        font-weight: 450;
+        margin-top: 20px;
+        background-color: hsl(129, 0%, 0%,0);
+        border: 2px solid hsl(129, 100%, 50%);
+        border-radius: 33px;
+        color: #f1efef;
+
+    }
+    .bodyaccess:hover{
+        background-color: hsl(129, 55%, 37%);
+        color: #ffffff;
+        border: 2px solid hsl(129, 95%, 37%);
+    }
+    .bodymyparag{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+        color: #f1efef;
+        padding: 5px 15px;
+        font-size: 18px;
+    }
+    .bodyabout{
+        border: 1px solid #ccc;
+        margin-top: 5px;
+        width: 95%;
+        margin-left: 10px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #f1efef;
+        padding: 0px;
+        
+    }
+    .bodyabout span{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .bodyabout .bodyhr{
+        width: 300px;
+        border: 0.5px solid white;
+    }
+    .bodyabout .bodyabparag{
+        padding:3px 15px;
+        width: 100%;
+        font-size: 18px;
+    }
+    .bodyabout .bodymoreabout{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: -70px;
+    }
+    .bodyabout .bodyp{
+        width: 320px;
+        height: 37px;
+        padding: 10px;
+        font-size: 17px;
+        background-color:rgb(65, 115, 222);
+    }
+    .bodyabout .bodymore{
+        text-decoration: none;
+        padding: 10px 23px;
+        margin-left: -40px;
+        border: 3px solid hsl(129, 95%, 37%);
+        font-size: 17px;
+        background-color: hsl(129, 90%, 37%);
+        border-radius: 45px;
+        box-shadow: -2px 2px 1px white;
+    }
+    
+    .bodyabout .bodymore:hover{
+        background-color: hsl(129, 45%, 37%);
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .bodybody{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .bodycircle{
+        height: 330px;
+        background-size: 160%;
+        background-position: center;
+        border-radius: 50%;
+        margin: 15px 10px 0px 10px;
+        display: flex;
+        margin-left: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        padding: 100px;
+       
+    }
+    .bodycircle1{
+        height: 330px;
+        width: 330px;
+        border-radius: 50%;
+        border-left: 8px solid hsl(129, 95%, 37%);
+        border-top: 6px dashed hsl(129, 95%, 37%);
+        border-bottom: 6px dashed hsl(129, 95%, 37%);
+        padding:10px;
+        position: absolute;
+    
+    }
+    @keyframes changeB{
+        0% {
+             background-image: url('../assets/happy.webp') ;
+            background-size: 400px 330px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        40% { 
+            background-image: url('../assets/girls.jpg') ;
+            background-size: 400px 330px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        80%{
+            background-image: url('../assets/girls2.jpg');
+            background-size: 400px 330px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        100% {
+            background-image: url('../assets/happy.webp') ;
+           background-size: 400px 330px;
+           transition: 0.3ms ease-in-out;
+           background: transition;
+       }
+    }  
+    .bodymyweb{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 47px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding:0px;
+        color: #f1efef;
+    }
+    .bodyanotherside{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        margin: 1px;
+        margin-top: 0px;
+    }
+    .bodymyweb legend{
+        font-size: 65px;
+        color: hsl(129, 95%, 37%);
+        margin-bottom: 10px;
+    }
+    .bodymydesc{
+        width: 93%;
+        margin-top: -25px;
+        padding: 0px 13px;
+        text-align: center;
+        font-size: 19px;
+        color: #f1efef;
+    }
+    .bodycontinue{
+        text-decoration: none;
+        font-size:25px;
+        padding: 9px;
+        background-color: hsl(129, 95%, 37%);;
+        margin-left: 70px;
+        margin-top: 0px;
+        width: 200px;
+        border-radius: 40px;
+        color: hsl(120, 9%, 98%);
+        display: flex;
+        border: 1.5px solid hsl(0, 0%, 100%);
+    }
+    .bodycontinue:hover{
+        background-color: hsl(129, 95%, 37%);
+        color: #0F3045;
+        border: none;
+    }
+    .bodycompdesc{
+        display: flex;
+        flex-direction: space-between;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .bodycompanies{
+        width: 100%;
+        padding: 0px 10px 10px;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .bodycompany{
+        height: 80px;
+        width: 80px;
+        padding: 0px;
+        
+    }
+    .bodyfirstcomp{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .bodyfirstcomp span{
+        font-size: 15px;
+        font-weight: 520;
+        color: #f1efef;
+    }
+    .bodyaccess{
+        text-decoration: none;
+        padding: 10px 16px;
+        font-size: 15px;
+        font-weight: 450;
+        margin-top: 20px;
+        background-color: hsl(129, 0%, 0%,0);
+        border: 2px solid hsl(129, 100%, 50%);
+        border-radius: 33px;
+        color: #f1efef;
+    }
+    .bodyaccess:hover{
+        background-color: hsl(129, 55%, 37%);
+        color: #ffffff;
+        border: 2px solid hsl(129, 95%, 37%);
+    }
+    .bodymyparag{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+        color: #f1efef;
+        padding: 5px 15px;
+        font-size: 18px;
+    }
+    .bodyabout{
+        border: 1px solid #ccc;
+        margin-top: 5px;
+        width: 95%;
+        margin-left: 10px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #f1efef;
+        padding: 0px;
+        
+    }
+    .bodyabout span{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .bodyabout .hr{
+        width: 300px;
+        border: 0.5px solid white;
+    }
+    .bodyabout .bodyabparag{
+        padding:3px 15px;
+        width: 100%;
+        font-size: 18px;
+    }
+    .bodyabout .bodymoreabout{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: -70px;
+    }
+    .bodyabout .bodyp{
+        width: 300px;
+        height: 37px;
+        padding: 10px;
+        font-size: 17px;
+        background-color:rgb(239, 240, 242);
+    }
+    .bodyabout .bodymore{
+        text-decoration: none;
+        padding: 10px 23px;
+        margin-left: -40px;
+        border: 3px solid hsl(129, 95%, 37%);
+        font-size: 17px;
+        background-color: hsl(129, 90%, 37%);
+        border-radius: 45px;
+        box-shadow: -2px 2px 1px white;
+    }
+    
+    .bodyabout .bodymore:hover{
+        background-color: hsl(129, 45%, 37%);
+    
+    }
+}
+
+
+@media (max-width: 470px) {
+    .bodybody{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .bodycircle{
+        height: 330px;
+        background-size: 160%;
+        background-position: center;
+        border-radius: 50%;
+        margin: 15px 10px 0px 10px;
+        display: flex;
+        margin-left: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        padding: 100px;
+       
+    }
+    .bodycircle1{
+        height: 330px;
+        width: 330px;
+        border-radius: 50%;
+        border-left: 8px solid hsl(129, 95%, 37%);
+        border-top: 6px dashed hsl(129, 95%, 37%);
+        border-bottom: 6px dashed hsl(129, 95%, 37%);
+        padding:10px;
+        position: absolute;
+    
+    }
+    @keyframes changeB{
+        0% {
+             background-image: url('../assets/happy.webp') ;
+            background-size: 400px 330px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        40% { 
+            background-image: url('../assets/girls.jpg') ;
+            background-size: 400px 330px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        80%{
+            background-image: url('../assets/girls2.jpg');
+            background-size: 400px 330px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        100% {
+            background-image: url('../assets/happy.webp') ;
+           background-size: 400px 330px;
+           transition: 0.3ms ease-in-out;
+           background: transition;
+       }
+    
+    }
+   
+    .bodymyweb{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 47px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding:0px;
+        color: #f1efef;       
+    }
+    .bodyanotherside{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        margin: 1px;
+        margin-top: 0px;
+
+    }
+    .bodymyweb legend{
+        font-size: 65px;
+        color: hsl(129, 95%, 37%);
+        margin-bottom: 10px;
+    }
+    .bodymydesc{
+        width: 93%;
+        margin-top: -25px;
+        padding: 0px 13px;
+        text-align: center;
+        font-size: 18px;
+        color: #f1efef;
+
+    }
+    .bodycontinue{
+        text-decoration: none;
+        font-size:25px;
+        padding: 9px;
+        background-color: hsl(129, 95%, 37%);;
+        margin-left: 70px;
+        margin-top: 0px;
+        width: 200px;
+        border-radius: 40px;
+        color: hsl(120, 9%, 98%);
+        display: flex;
+        border: 1.5px solid hsl(0, 0%, 100%);
+    }
+    .bodycontinue:hover{
+        background-color: hsl(129, 95%, 37%);
+        color: #0F3045;
+        border: none;
+    }
+    .bodycompdesc{
+        display: flex;
+        flex-direction: space-between;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .bodycompanies{
+        width: 100%;
+        padding: 0px 10px 10px;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .bodycompany{
+        height: 80px;
+        width: 80px;
+        padding: 0px;
+        
+    }
+    .bodyfirstcomp{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .bodyfirstcomp span{
+        font-size: 15px;
+        font-weight: 520;
+        color: #f1efef;
+    }
+    .bodyaccess{
+        text-decoration: none;
+        padding: 10px 16px;
+        font-size: 15px;
+        font-weight: 450;
+        margin-top: 20px;
+        background-color: hsl(129, 0%, 0%,0);
+        border: 2px solid hsl(129, 100%, 50%);
+        border-radius: 33px;
+        color: #f1efef;
+    }
+    .bodyaccess:hover{
+        background-color: hsl(129, 55%, 37%);
+        color: #ffffff;
+        border: 2px solid hsl(129, 95%, 37%);
+    }
+    .bodymyparag{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+        color: #f1efef;
+        padding: 5px 15px;
+        font-size: 17px;
+    }
+    .bodyabout{
+        border: 1px solid #ccc;
+        margin-top: 5px;
+        width: 90%;
+        margin-left: 20px;
+        height: 560px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #f1efef;
+        padding: 0px;
+        
+    }
+    .bodyabout span{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .bodyabout .hr{
+        width: 300px;
+        border: 0.5px solid white;
+    }
+    .bodyabout .bodyabparag{
+        text-align: center;
+        padding:3px 15px;
+        width:90%;
+        font-size: 17px;
+    }
+    .bodyabout .bodymoreabout{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: -70px;
+    }
+    .bodyabout .bodyp{
+        width: 300px;
+        height: 37px;
+        padding: 10px;
+        font-size: 14px;
+        background-color:rgb(65, 115, 222);
+    }
+    .bodyabout .bodymore{
+        text-decoration: none;
+        padding: 10px 23px;
+        margin-left: -40px;
+        border: 3px solid hsl(129, 95%, 37%);
+        font-size: 17px;
+        background-color: hsl(129, 90%, 37%);
+        border-radius: 45px;
+        box-shadow: -2px 2px 1px white;
+    }
+    
+    .bodyabout .bodymore:hover{
+        background-color: hsl(129, 45%, 37%);
+    
+    }
+}
+
+
+
+@media (max-width: 575.98px) {
+    .bodybody{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .bodycircle{
+        height: 380px;
+        background-size: 160%;
+        background-position: center;
+        border-radius: 50%;
+        margin: 15px 10px 0px 10px;
+        display: flex;
+        margin-left: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 380px;
+        padding: 100px;
+       
+    }
+    .bodycircle1{
+        height: 380px;
+        width: 380px;
+        border-radius: 50%;
+        border-left: 8px solid hsl(129, 95%, 37%);
+        border-top: 6px dashed hsl(129, 95%, 37%);
+        border-bottom: 6px dashed hsl(129, 95%, 37%);
+        padding:10px;
+        position: absolute;
+    
+    }
+    @keyframes changeB{
+        0% {
+             background-image: url('../assets/happy.webp') ;
+            background-size: 400px 380px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        40% { 
+            background-image: url('../assets/girls.jpg') ;
+            background-size: 400px 380px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        80%{
+            background-image: url('../assets/girls2.jpg');
+            background-size: 400px 380px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        100% {
+            background-image: url('../assets/happy.webp') ;
+           background-size: 400px 380px;
+           transition: 0.3ms ease-in-out;
+           background: transition;
+       }
+    
+    }
+   
+    .bodymyweb{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 47px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding:0px;
+        color: #f1efef;       
+    }
+    .bodyanotherside{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        margin: 1px;
+        margin-top: 0px;
+
+    }
+    .bodymyweb{
+        width: 100%;
+        /* text-align:right;
+        justify-content: right;
+        padding-right: 40px; */
+    }
+    .bodymyweb legend{
+        font-size: 65px;
+        color: hsl(129, 95%, 37%);
+        margin-bottom: 10px;
+    }
+    .bodymydesc{
+        width: 93%;
+        margin-top: -25px;
+        padding: 0px 13px;
+        text-align: center;
+        font-size: 18px;
+        color: #f1efef;
+
+    }
+    .bodycontinue{
+        text-decoration: none;
+        font-size:25px;
+        padding: 9px;
+        background-color: hsl(129, 95%, 37%);;
+        margin-left: 160px;
+        margin-top: 0px;
+        width: 200px;
+        border-radius: 40px;
+        color: hsl(120, 9%, 98%);
+        display: flex;
+        border: 1.5px solid hsl(0, 0%, 100%);
+    }
+    .bodycontinue:hover{
+        background-color: hsl(129, 95%, 37%);
+        color: #0F3045;
+        border: none;
+    }
+    .bodycompdesc{
+        display: flex;
+        flex-direction: space-between;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .bodycompanies{
+        width: 100%;
+        padding: 0px 10px 10px;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .bodycompany{
+        height: 80px;
+        width: 80px;
+        padding: 0px;
+        
+    }
+    .bodyfirstcomp{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .bodyfirstcomp span{
+        font-size: 15px;
+        font-weight: 520;
+        color: #f1efef;
+    }
+    .bodyaccess{
+        text-decoration: none;
+        padding: 10px 16px;
+        font-size: 15px;
+        font-weight: 450;
+        margin-top: 20px;
+        background-color: hsl(129, 0%, 0%,0);
+        border: 2px solid hsl(129, 100%, 50%);
+        border-radius: 33px;
+        color: #f1efef;
+    }
+    .bodyaccess:hover{
+        background-color: hsl(129, 55%, 37%);
+        color: #ffffff;
+        border: 2px solid hsl(129, 95%, 37%);
+    }
+    .bodymyparag{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+        color: #f1efef;
+        padding: 5px 15px;
+        font-size: 17px;
+    }
+    .bodyabout{
+        border: 1px solid #ccc;
+        margin-top: 5px;
+        width: 90%;
+        margin-left: 20px;
+        height: 560px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #f1efef;
+        padding: 0px;
+        
+    }
+    .bodyabout span{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .bodyabout .bodyhr{
+        width: 300px;
+        border: 0.5px solid white;
+    }
+    .bodyabout .bodyabparag{
+        text-align: center;
+        padding:3px 15px;
+        width:90%;
+        font-size: 17px;
+    }
+    .bodyabout .bodymoreabout{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: -70px;
+    }
+    .bodyabout .bodyp{
+        width: 300px;
+        height: 37px;
+        padding: 10px;
+        font-size: 14px;
+        background-color:rgb(65, 115, 222);
+    }
+    .bodyabout .bodymore{
+        text-decoration: none;
+        padding: 10px 23px;
+        margin-left: -40px;
+        border: 3px solid hsl(129, 95%, 37%);
+        font-size: 17px;
+        background-color: hsl(129, 90%, 37%);
+        border-radius: 45px;
+        box-shadow: -2px 2px 1px white;
+    }
+    
+    .bodyabout .bodymore:hover{
+        background-color: hsl(129, 45%, 37%);
+    
+    }
+}
+
+
+@media (max-width: 768.0px) {
+    .bodybody{
+        justify-content: center;
+        align-items: center;
+    }
+    .bodycircle{
+        height: 360px;
+        background-size: 160%;
+        background-position: center;
+        border-radius: 50%;
+        margin: 15px 10px 0px 10px;
+        display: flex;
+        margin-left: 0px;
+        justify-content: center;
+        align-items: center;
+        width: 360px;
+        padding: 100px;
+       
+    }
+    .bodycircle1{
+        height: 360px;
+        width: 360px;
+        border-radius: 50%;
+        border-left: 8px solid hsl(129, 95%, 37%);
+        border-top: 6px dashed hsl(129, 95%, 37%);
+        border-bottom: 6px dashed hsl(129, 95%, 37%);
+        padding:10px;
+        position: absolute;
+    
+    }
+    @keyframes changeB{
+        0% {
+             background-image: url('../assets/happy.webp') ;
+            background-size: 400px 360px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        40% { 
+            background-image: url('../assets/girls.jpg') ;
+            background-size: 400px 360px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        80%{
+            background-image: url('../assets/girls2.jpg');
+            background-size: 400px 360px;
+            transition: 0.3ms ease-in-out;
+            background: transition;
+        }
+        100% {
+            background-image: url('../assets/happy.webp') ;
+           background-size: 400px 360px;
+           transition: 0.3ms ease-in-out;
+           background: transition;
+       }
+
+    
+    }
+     .bodymyweb{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 43px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding:0px;
+        color: #f1efef;
+               
+    }
+    .bodyanotherside{
+        width: 350px;
+        display: block;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        margin: 1px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .bodymyweb legend{
+        font-size: 65px;
+        color: hsl(129, 95%, 37%);
+        margin-bottom: 14px;
+    }
+    .bodymydesc{
+        width: 99%;
+        margin-top: -25px;
+        padding: 0px 13px;
+        text-align: center;
+        font-size: 18px;
+        color: #f1efef;
+
+    }
+    .bodycontinue{
+        font-size:25px;
+        margin-left: 90px;
+        padding: 10px;
+        margin-top:20px;
+        width: 200px;
+        display: flex;
+    }
+    .bodycontinue:hover{
+        background-color: hsl(129, 95%, 37%);
+        color: #0F3045;
+        border: none;
+    }
+.bodycompanies{
+    width: 100%;
+    padding: 0px 40px 10px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bodycompany{
+    height: 80px;
+    width: 80px;
+    padding: 0px;
+    
+}
+.bodyfirstcomp{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.bodyfirstcomp span{
+    font-size: 15px;
+    font-weight: 520;
+    color: #f1efef;
+}
+.bodyaccess{
+    text-decoration: none;
+    padding: 10px 16px;
+    font-size: 15px;
+    font-weight: 450;
+    margin-top: 20px;
+    background-color: hsl(129, 0%, 0%,0);
+    border: 2px solid hsl(129, 100%, 50%);
+    border-radius: 33px;
+    color: #f1efef;
+}
+.bodyaccess:hover{
+    background-color: hsl(129, 55%, 37%);
+    color: #ffffff;
+    border: 2px solid hsl(129, 95%, 37%);
+}
+.bodymyparag{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #f1efef;
+    padding: 5px 47px;
+    font-size: 17px;
+}
+.bodyabout{
+    margin-top: 0px;
+    width: 85%;
+    margin-left: 8%;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f1efef;
+    padding: 0px;
+    
+}
+.bodyabout span{
+    font-size: 34px;
+    font-weight: 600;
+}
+.bodyabout .bodyhr{
+    width: 300px;
+    border: 0.5px solid white;
+}
+.bodyabout .bodyabparag{
+    text-align: center;
+    padding:3px 15px;
+    width:100%;
+    font-size: 17px;
+}
+.bodyabout .bodymoreabout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.bodyabout .bodyp{
+    width: 300px;
+    height: 37px;
+    padding: 10px;
+    font-size: 14px;
+    background-color:rgb(65, 115, 222);
+}
+.bodyabout .bodymore{
+    text-decoration: none;
+    padding: 10px 23px;
+    margin-left: -40px;
+    border: 3px solid hsl(129, 95%, 37%);
+    font-size: 17px;
+    background-color: hsl(129, 90%, 37%);
+    border-radius: 45px;
+    box-shadow: -2px 2px 1px white;
+}
+
+.bodyabout .bodymore:hover{
+    background-color: hsl(129, 45%, 37%);
+
+}
+
+
+}

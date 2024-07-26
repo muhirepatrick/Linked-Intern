@@ -1,0 +1,92 @@
+.compdashap{
+    min-width: 600px;
+    max-height: 1200px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.compdashap span{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color:white;
+    background-color:#0F3045;
+    text-align: center;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.compappconten{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.compcontword{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.compcontword img{
+    width:25%;
+    height: 25%;
+}
+
+.compappconten form{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.comptonam{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.compdo{
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    height: 50px;
+    justify-content: space-between;
+    
+}
+
+.comptextarea{
+    padding-top:20px;
+    width: 350px;
+}
+
+.comptextarea textarea{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+}
+
+#compappl{
+    cursor: pointer;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 10px;
+    background-color:#0F3045;
+    color: white;
+}

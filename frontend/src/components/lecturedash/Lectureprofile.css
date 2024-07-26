@@ -1,0 +1,23 @@
+.profileall{
+    margin-top: 15px;
+    width: 750px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.proimage{
+    width:170px;
+    height:130;
+    margin-bottom:50px;
+}
+img{
+    height:130;
+    width:130px;
+}
+
+.proinformation{
+    width:650px;
+    height:400px;
+    border: 1px solid gray;
+}

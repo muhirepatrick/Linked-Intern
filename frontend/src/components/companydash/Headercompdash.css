@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    /*background-image: linear-gradient(to bottom right,#2d4877, #0F3045);*/
+}
+
+.compheader{
+    background-color: #0F3045;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    border-radius: 3px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0,0.5)
+
+}
+.comptheside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comptheside span{
+    color: white;
+    font-size: 18px;
+}
+.compourlogo{
+    width: 38px; 
+    height: 38px;
+    border-radius: 20%;
+}
+.compheader .links ul{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    list-style: none;
+    margin-right: 100px;
+}
+.compheader .links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    font-weight: 450;
+   
+}
+.compheader .links ul li a:hover{
+    border: none;
+    border-bottom: 2px solid white;
+    border-bottom-width: 1px;
+}
+.compsearch input{
+    width:300px;
+    height: 30px;
+    padding: 5px 10px;
+    padding-right: 60px;
+    border-radius: 15px;
+    border: none;
+}
+.compsearch button{
+    margin-left: -70px;
+    margin-top: 0px;
+    position: absolute;
+    border: none;
+    padding:5px 10px;
+    border-radius: 0px 15px 15px 0px;
+    border-left: 1px solid hsl(0, 0%, 80%);
+}
+#compprofileimg{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+
+}
+
+.compprofile ,.compprofile span{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

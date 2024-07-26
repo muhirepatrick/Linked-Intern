@@ -1,0 +1,71 @@
+.persmylogbooks{
+    width: 600px;
+    height: 550px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.persmylogbooks span{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    color:white;
+    background-color:#0F3045;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+}
+.perslogcontents table{
+    border-collapse: collapse;
+}
+.perslogcontents table th, table td{
+    width: 150px;
+    padding: 10px;
+}
+.perstasks{
+    margin-top:20px;
+    width: 100%;
+
+}
+
+.perstask form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.perstask form .persactivity, .perstools, .persdate{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+.perstask form div input{
+    width: 250px;
+    height: 40px;
+}
+
+.perstask form input[type="submit"]{
+    margin-top: 10px;
+    padding: 12px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #0F3045;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.perstask form input[type="submit"]:hover{
+    background-color: #0b2331;
+    border: 1px solid  #0F3045;
+
+
+}
+

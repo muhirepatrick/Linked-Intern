@@ -1,0 +1,228 @@
+.sgnall{
+    background-image: linear-gradient(to bottom, #33607d,#0F3045,#0F3045);
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-height: 2501px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.sgncombiner{
+    max-height: 1600px;
+    width: 80%;
+    /* padding-bottom: 10px; */
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e0e0e0;
+    
+}
+.sgnhead{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: #0F3045;
+}
+
+.sgnhead .pers{
+    padding: 15px 30px;
+    color: white;
+    font-weight: 700;
+    background-color: #0F3045;
+    border: 3px solid snow;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 2px solid #0F3045;
+    border-radius: 20px 0px 0px 0px ;
+    cursor: all;
+    text-decoration: none;
+    border-bottom:  1px solid #0F3045;
+}
+
+#pers{
+    background-color:  #e0e0e0;
+    color: #0F3045;
+    border-bottom:  2.5px solid #0F3045;
+}
+
+#instt:hover{
+    transition: 300ms ease-in-out;
+    background-color:#c1d7e5;
+    color: #0F3045;
+
+}
+
+.sgnhead .instt{
+    padding: 15px 30px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #0F3045;
+    border: 1px solid snow;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 2px solid white;
+    border-bottom: 3px solid black;
+    border-radius: 0px 20px 0px 0px ;
+    border-bottom:  1px solid #0F3045;
+}
+#instt{
+    border-bottom: 2.5px solid #0F3045;
+}
+.insttAll{
+    width: 100%;
+    max-height: 1500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.insttAll h1{
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 90%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.insttAll input{
+    width: 500px;
+}
+.insttAll .location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.compDetails{
+    padding: 10px;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+.compDetails div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.compDetails div input,select{
+    width: 340px;
+    padding: 7px;
+
+}
+.compDetails div label{
+    width: 180px;
+    display: flex;
+}
+.insttAll .location select{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+}
+.personInInst div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.personInInst input,select{
+    width: 340px;
+    padding: 7px;
+
+}
+.personInInst label{
+    width: 180px;
+    display: flex;
+}
+.security input,select{
+    width: 340px;
+    padding: 7px;
+
+}
+.security div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.security label{
+    width: 180px;
+    display: flex;
+}
+/* .insttAll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.compinfor {
+    display: flex;
+    flex-direction: column
+}
+
+.signBtn{
+    align-self: center;
+    display: grid;
+    padding: 12px 23px;
+    border-radius: 40px;
+    font-size: 19px;
+    font-weight: 700;
+    background-color: #0F3045;
+    border: 2px solid #0F3045;
+    color: white;
+}
+.signBtn:hover{
+    background-color: #fff;
+    color: #0F3045;
+    transition: 100ms ease-in-out;
+    
+    
+}
+
+form .mesactive{
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    padding: 10px ;
+    border: 1.5px solid rgb(249, 17, 17);
+    border-radius: 2px;
+    font-size:18px;
+    background-color: hsl(0, 78%, 79%);
+    color: rgb(248, 18, 18);
+    font-weight: bold;
+}
+form .messaging{
+    width: 300px;
+    height: 40px;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .sgnall{
+        width: 100%;
+        max-height: 2501px;
+    }
+}

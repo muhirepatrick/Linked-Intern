@@ -1,0 +1,229 @@
+*{
+    color: black;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.loginall{
+    background-image: linear-gradient(to bottom, #33607d,#0F3045,#0F3045);
+    width: 100%;
+    Height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.combiner{
+    padding:10px;
+    
+}
+
+.flghead{
+    width:355px;
+    height:60px;
+    padding: 12px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 6px 9px 17px 0px rgba(0,0,0,0.7);
+    margin: 0px;
+    margin-bottom: 30px;
+}
+.flghead span{
+    font-size:35px;
+    font-weight:700;
+}
+.mlogin{
+    width: 355px;
+    height: 340px;
+    background-color: white;
+    margin: 0px;
+    border-radius: 20px;
+    box-shadow: 5px 9px 17px 0px rgb(0,0,0,0.7);
+}
+.mlogin .form{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.mlogin .form .email{
+    margin-top: 25px;
+    width: 90%;
+    max-height: 120px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.mlogin .form .email input{
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    position: relative;
+    padding: 0px 60px 0px 10px;
+}
+.mlogin .form .email img{
+    width: 30px;
+    height: 30px;
+    margin-left: 270px;
+    margin-top: 0px;
+    position: absolute;
+    opacity: 0.5;
+
+}
+.mlogin .form .password img{
+    width: 30px;
+    height: 30px;
+    margin-left: 270px;
+    margin-top: 0px;
+    position: absolute;
+    opacity: 0.5;
+
+}
+.mlogin .form .password{
+    width: 90%;
+    max-height: 120px;
+    margin-top: 20px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.mlogin .form .password input{
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 300px;
+    height: 50px;
+    margin-top: 0px;
+    font-size: 18px;
+    margin-top: 0px;
+    padding: 5px 10px 0px 10px;
+}
+/* handle messaging  */
+
+form .mesactive{
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    padding: 10px ;
+    border: 1.5px solid rgb(249, 17, 17);
+    border-radius: 2px;
+    font-size:18px;
+    background-color: hsl(0, 78%, 79%);
+    color: rgb(248, 18, 18);
+    font-weight: bold;
+}
+form .messaging{
+    width: 300px;
+    height: 40px;
+}
+
+/* login and signin */
+
+.mlogin .form .sublinks{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    /* background-color: red; */
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.mlogin .form .sublinks input{
+    font-size:18px;
+    width: 110px;
+    font-weight: normal;
+    height: 50px;
+    color: white;
+    margin-top: 0px;
+    padding: 0px;
+    cursor: pointer;
+    border: 2px solid #0F3045;
+    background-color: #0F3045;
+    border-radius: 7px;
+}
+
+
+.mlogin .form .sublinks input:hover{
+    background-color: rgb(225, 225, 225);
+    color:#0F3045;
+    
+}
+
+.mlogin .form .sublinks a{
+    text-decoration: none;
+    font-size: 18px;
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid  #0F3045;;
+    color: white;
+    border-radius: 7px;
+    background-color: #0F3045;
+
+}
+.mlogin .form .sublinks a:hover{
+    background-color: rgb(225, 225, 225);
+    color:#0F3045;
+}
+
+.mlogin .forgetp{
+    font-size: 18px;
+    color: #3324e2;
+    font-weight: 520;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    
+}
+.mlogin .forgetp:hover{
+    text-decoration: underline;
+}
+
+.blogin{
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 355px;
+    height: 80px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 6px 9px 14px 0px rgb(0,0,0,0.7);
+}
+
+.blogin .aboutlink{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px ;
+    align-items:flex-end;
+}
+
+.blogin span{
+    font-size: 18px;
+    color: rgb(47, 46, 46);
+  }
+
+
+/* donedonedonedone
+
+donedonedonedonedone*/
+
+
+
+
+

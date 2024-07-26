@@ -1,0 +1,39 @@
+.comphisthand{
+    padding: 10px;
+    width: 100%;
+}
+.compdata{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-height: 195px;
+    border: 1px solid #ccc;
+    background-color:hsl(217, 52%, 72%,0.5);
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 10px; */
+}
+.compdatainfo{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.compdatadesc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.compdatadesc .compimg img{
+    width: 60px;
+    margin-right: 10px;
+
+
+}
+.compdatadesc .result{
+    padding: 10px;
+    background-color:rgb(0, 255, 4);
+    border: 1px solid gray
+}

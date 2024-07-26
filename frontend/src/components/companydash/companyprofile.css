@@ -1,0 +1,25 @@
+.compprofileall{
+    margin-top: 15px;
+    width: 750px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.compproimage{
+    width:170px;
+    height:130;
+    margin-bottom:50px;
+}
+img{
+    height:130;
+    width:130px;
+}
+
+.compproinformation{
+    width:650px;
+    max-height:900px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+}
