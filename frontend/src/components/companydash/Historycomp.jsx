@@ -13,7 +13,9 @@ const History = () => {
     const gettinghistory= async ()=> {
         await axios.get("/gettingApplicant").then((response) => {
             console.log(response);
-          
+            if(response.data.length>1){
+                
+            }
             setHistoryData(response.data)
         })
     }
@@ -27,7 +29,7 @@ const History = () => {
                     <div className="compdate">00/00/0000</div>
                 </div>
                 <div className="compdatadesc">
-                    <div className="compimg">
+                    <div className = "compimg">
                         <img src={companyimage} alt="" />
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nam temporibus vel autem quaerat placeat delectus cupiditate accusamus consequuntur est, culpa itaque officia ducimus hic possimus eveniet deserunt consequatur esse.</p>
@@ -37,24 +39,7 @@ const History = () => {
                     </div>
 
                 </div>
-            </div>: "hello"}
-
-            <div className="data">
-                <div className="datainfo">
-                    <div className="companyName">Company name</div>
-                    <div className="date">00/00/0000</div>
-                </div>
-                <div className="datadesc">
-                    <div className="img">
-                        <img src={companyimage} alt="" />
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nam temporibus vel autem quaerat placeat delectus cupiditate accusamus consequuntur est, culpa itaque officia ducimus hic possimus eveniet deserunt consequatur esse.</p>
-                    <div className="result">ACCEPTED/REJECTED</div>
-                </div>
-            </div>
-          
-            
-            history company
+            </div>: "no data"}
         </div>
     );
 }
